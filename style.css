@@ -1,2 +1,103 @@
-body {background: rgb(6, 141, 130)
+.yellowback {
+  background-color: rgb(179, 179, 2);
+  color: rgb(0, 0, 0);
+  font-family: "lato", sans-serif;
+  font-size: 18px;
+  font-weight: 200;
+  padding: 8px 8px 8px 8px;
+  margin: 8px 2.5%;
+  position: relative;
+  display: block;
+}
+
+body {
+  background: rgba(245, 245, 245, 1);
+}
+
+.header {
+  width: 100%;
+  height: 90px;
+}
+
+.header .title {
+  width: 50%;
+  float: left;
+  font-family: "Raleway", serif;
+  font-size: 26px;
+  font-weight: bold;
+  letter-spacing: 6px;
+  color: rgba(66,66,66,1);
+  /*line-height: 30px;*/
+  
+}
+.header .title a {
+text-decoration: none;
+color: rgba(66,66,66,1);
+padding: 30px 0px 30px 5%;
+line-height: 30px;
+display:block;
+}
+
+.header .menu {
+  width: 50%;
+  float: right;
+  height: 90px;
+}
+
+.header .menu nav {
+  font-family: "Raleway";
+  font-size: 18px;
+  font-weight: 200;
+  color: rgba(255, 255, 255, 1);
+  text-align: right;
+  line-height: 30px;
+  padding: 30px 5% 30px 0px;
+}
+
+.header .menu nav a {
+  margin: 0px 0px 0px 20px;
+  color: rgba(66,66,66,1);
+  text-decoration: none;
+}
+
+.header .menu nav a:hover {
+  color: #1791A6;
+  font-weight: 500;
+}
+
+.header .menu nav a:active {
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.portfolio-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  padding:0 2.5%;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+.portfolio-wrapper .portfolio-item {
+  height: 384px;
+  width: 420px;
+  display: inline-block;
+  margin:0px 0px 10px;
+  background-size: cover;
+}
+
+.portfolio-wrapper #bamboo {
+  background: url('bamboo-portfolio.png') no-repeat center center;
+}
+
+.portfolio-wrapper #bamboo:hover {
+  background: url('bamboo-portfolio-color.png') no-repeat center center;
+}
+
+.portfolio-wrapper #sticky {
+  background: url('sticky-portfolio.png') no-repeat center center;
+}
+
+.portfolio-wrapper #sticky:hover {
+  background: url('sticky-portfolio-color.png') no-repeat center center;
 }
