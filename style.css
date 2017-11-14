@@ -46,7 +46,7 @@ display:block;
 
 .header .menu nav {
   font-family: "Raleway";
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 200;
   color: rgba(255, 255, 255, 1);
   text-align: right;
@@ -76,6 +76,7 @@ display:block;
   padding:0 2.5%;
   justify-content: space-between;
   align-content: space-between;
+
 }
 
 .portfolio-wrapper .portfolio-item {
