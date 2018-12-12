@@ -1,0 +1,161 @@
+body {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*          NAVBAR          */
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    background-color: #fff;
+    padding: 0.5%;
+    border-bottom: 1px solid #d9d9d9;
+    z-index: 1;
+}
+
+.logo {
+    margin-top: 0.5%;
+    margin-left: 3.5%;
+
+    font-family: "Open Sans",sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: 4px;
+    color: #424242;  
+
+    text-decoration: none;
+}
+
+.active {
+    color: #0ecaea;    
+}
+
+.inactive {
+    color: #424242;
+}
+
+.resume {
+
+    float: right;
+    margin-right: 3.5%;
+    margin-top: 0.7%;
+
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.29;
+    letter-spacing: normal;
+    text-align: center;
+
+    text-decoration: none;
+}
+
+.work {
+    float: right;
+    margin-top: 0.7%;    
+    margin-right: 4.2%;
+
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.29;
+    letter-spacing: normal;
+    text-align: center;
+
+    text-decoration: none;
+}
+
+/*          Projects            */
+.projects {
+    margin: 0%;
+    padding: 0%;
+    margin-top: 50px;
+    z-index: 0;
+}
+
+.project {
+    padding-top: 2.1%;
+    padding-bottom: 85px;
+    padding-left: 6.9%;
+    padding-right: 6.9%;
+    position: relative;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+.project-text h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #444444;
+}
+
+.project-text p {
+
+    margin-top: 33px;
+    width: 390px;
+
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.83;
+    letter-spacing: normal;
+    color: #444444;
+}
+
+.project-text button {
+    margin-top: 40px;
+    width: 252px;
+    height: 58.5px;
+    border-radius: 29.3px;
+    background-color: #fff;
+    border: 1px #0ecaea solid;  
+    padding: 18px;
+}
+
+.project-text span {
+    font-size: 16.5px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #434343;
+  
+}
+
+
+.tags {
+    margin-top: 40px;
+}
+
+.tags a {
+    font-size: 18px;
+    font-weight: normal;
+    font-style: italic;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #444444;
+    background-color: rgb(14,202,234,0.1);
+    padding: 2px;
+}
+
+.project-image {
+    position: absolute;
+    top: 70px;
+    right: 6.9%;
+}
