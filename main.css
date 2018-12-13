@@ -1,24 +1,28 @@
-body {
-    padding: 0%;
-    margin: 0%;
-    font-family: 'Open Sans', sans-serif;
+*,html,body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Open Sans';
 }
 
-/*          NAVBAR          */
+/*          NAVABAR             */
 
-.navbar {
+#ham-menu {
+    display: none;
+}
+
+.nav {
     position: fixed;
     width: 100%;
     top: 0px;
     background-color: #fff;
-    padding: 0.5%;
+    padding-top: 18px;
+    padding-bottom: 18px;
     border-bottom: 1px solid #d9d9d9;
     z-index: 1;
 }
 
 .logo {
-    margin-top: 0.5%;
-    margin-left: 3.5%;
+    margin-left: 50px;
 
     font-family: "Open Sans",sans-serif;
     font-size: 24px;
@@ -31,19 +35,29 @@ body {
     text-decoration: none;
 }
 
+.logo:hover {
+    text-decoration: none;
+    color: #424242;
+}
+
 .active {
     color: #0ecaea;    
+}
+.active:hover {
+    color: #0ecaea;
 }
 
 .inactive {
     color: #424242;
 }
+.inactive:hover {
+    color: #424242;
+}
 
 .resume {
-
     float: right;
-    margin-right: 3.5%;
-    margin-top: 0.7%;
+    margin-right: 50px;
+    margin-top: 5px;
 
     font-family: "Open Sans", sans-serif;
     font-size: 14px;
@@ -59,12 +73,12 @@ body {
 
 .work {
     float: right;
-    margin-top: 0.7%;    
-    margin-right: 4.2%;
+    margin-top: 5px;    
+    margin-right: 60px;
 
     font-family: "Open Sans", sans-serif;
     font-size: 14px;
-    font-weight: bold;
+    font-weight: normal;
     font-style: normal;
     font-stretch: normal;
     line-height: 1.29;
@@ -74,25 +88,113 @@ body {
     text-decoration: none;
 }
 
-/*          Projects            */
-.projects {
-    margin: 0%;
-    padding: 0%;
+.work:hover, .resume:hover {
+    text-decoration: none;
+}
+
+.menu-items {
+    position: absolute;
+    right: 0px;
+}
+
+.ham {
+    display: none;
+}
+
+
+
+/*          HOMEPAGE CONTENT            */
+
+.home-content {    
+    margin-top: 250px;
+}
+
+.home-title {
+    font-size: 54px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #444444;
+    margin: auto;
+}
+
+.home-details {
     margin-top: 50px;
-    z-index: 0;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2;
+    letter-spacing: 1.7px;
+    text-align: center;
+    color: #444444;
 }
 
-.project {
-    padding-top: 2.1%;
-    padding-bottom: 85px;
-    padding-left: 6.9%;
-    padding-right: 6.9%;
+.home-button {
     position: relative;
-    border-bottom: 1px solid #d9d9d9;
+
+    margin:  103px auto;
+
+    border: 1px solid #979797;
+    width: 270px;
+    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 67px;
+    padding-right: 67px;
+    color: #979797;
 }
 
-.project-text h1 {
-    font-family: 'Open Sans', sans-serif;
+.home-button:hover {
+    background-color: #0ecaea;
+    color: #fff;
+}
+
+.home-link {
+    position: relative;
+}
+
+.home-link:hover {
+    text-decoration: none;
+}
+
+.home-details a {
+    color: #0ecaea;
+    text-decoration: underline;
+}
+
+/*          PROJECTS SCREEN         */
+
+.projects {
+    margin-top: 134px;
+}
+
+.divider {
+    margin-top: 85px;
+    width: 100%;
+    margin-bottom: 96px;
+    height: 1px;
+    border: none;
+    color: #d9d9d9;
+    background-color: #d9d9d9;
+}
+
+.project-about {
+    position: absolute;
+}
+
+.project-image {
+    max-width: 100%;
+    margin: auto;
+}
+
+.project-title {
+
+    margin-bottom: 33px;
+
     font-size: 40px;
     font-weight: normal;
     font-style: normal;
@@ -102,11 +204,8 @@ body {
     color: #444444;
 }
 
-.project-text p {
-
-    margin-top: 33px;
-    width: 390px;
-
+.project-details {
+    max-width: 390px;
     font-size: 18px;
     font-weight: normal;
     font-style: normal;
@@ -114,19 +213,34 @@ body {
     line-height: 1.83;
     letter-spacing: normal;
     color: #444444;
+    margin-bottom: 40px;
 }
 
-.project-text button {
+.tag {
+    font-size: 18px;
+    font-weight: normal;
+    font-style: italic;
+    font-stretch: normal;
+    line-height: normal;
+    margin-bottom: 40px;
+    letter-spacing: normal;
+    color: #444444;
+    margin-right: 20px;
+    padding: 3px 10px 3px 3px;
+    background-color: #E6F9FC;
+}
+
+.store-link {
+    position: relative;
     margin-top: 40px;
-    width: 252px;
-    height: 58.5px;
-    border-radius: 29.3px;
-    background-color: #fff;
-    border: 1px #0ecaea solid;  
-    padding: 18px;
+    text-decoration: none;
 }
 
-.project-text span {
+.store-link:hover {
+    text-decoration: none;
+}
+
+.store-button {
     font-size: 16.5px;
     font-weight: bold;
     font-style: normal;
@@ -134,28 +248,209 @@ body {
     line-height: normal;
     letter-spacing: normal;
     color: #434343;
+    padding: 18px;
+    border-radius: 29.3px;
+    border: 1.5px solid #0ecaea; 
+}
+.store-button img {
+    margin-right: 18px; 
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+    .ham {
+        display: inline-block;
+        cursor: pointer;
+        position: absolute;
+        right: 0;
+        margin-right: 18px;
+    }
+    
+
+    .bar1, .bar2, .bar3 {
+        width: 35px;
+        height: 5px;
+        background-color: #979797;
+        margin: 6px 0;
+        transition: 0.4s;
+    }
+    
+
+    .change .bar1 {
+        -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+        transform: rotate(-45deg) translate(-9px, 6px) ;
+    }
   
-}
+    .change .bar2 {
+        opacity: 0;
+    }
+    .change .bar3 {
+        -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+        transform: rotate(45deg) translate(-8px, -8px) ;
+    }
 
+    .logo {
+        margin-top: 10px;
+        font-size: 14px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 2;
+        letter-spacing: 2.3px;
+        color: #424242;
+        margin-left: 18px;
+    }
 
-.tags {
-    margin-top: 40px;
-}
+    .work, .resume {
+        display: none;
+    }
 
-.tags a {
-    font-size: 18px;
-    font-weight: normal;
-    font-style: italic;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    color: #444444;
-    background-color: rgb(14,202,234,0.1);
-    padding: 2px;
-}
+    .home-link, .home-button {
+        margin: 0px;
+        position: fixed;
+        bottom: 0px;
+        width: 100%;  
+        background-color: #0ecaea;
+        border: none;
 
-.project-image {
-    position: absolute;
-    top: 70px;
-    right: 6.9%;
+        font-size: 14px;
+        font-weight: 600;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: 1.2px;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    .home-content {
+        margin-top: 125px;
+    }
+
+    .row {
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+
+    .home-details {
+        margin-top: 30px;
+        font-size: 13px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 2.31;
+        letter-spacing: 1.1px;
+        text-align: center;
+        color: #444444;
+    }
+
+    .home-title {
+        font-size: 28px;
+        font-weight: 600;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #444444;
+    }
+    .ham-menu-items {  
+        color: #444444;
+        font-size: 24px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: 2px;
+        text-align: center;
+        margin-top: 30px;
+    }
+    #ham-menu {
+        margin-top: 168px;
+    }
+    .ham-menu-active {
+        margin-top: 30px;
+        font-size: 28px;
+        font-weight: 600;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: 2.3px;
+        text-align: center;
+        color: #0ecaea;
+        text-decoration: none;
+    }
+    hr {
+        margin: auto;
+        width: 180px;
+        height: 1px;
+    }
+    .ham-menu-icons {
+        position: relative;
+        display: block;
+        float: none;
+        width: 200px;
+        margin: 30px auto;
+    }
+
+    .project-image {
+        margin-top: 40px;
+    }
+
+    .project-about {
+        position: relative;
+        margin: 20px;
+    }
+
+    .projects {
+        margin-top: 95px;
+    }
+    .project-title {
+        font-size: 20px;
+        font-weight: 600;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #444444;
+        margin-bottom: 10px;
+    }
+    .project-details {
+        font-size: 12px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 2.5;
+        letter-spacing: 1px;
+        color: #444444;
+        margin-bottom: 10px;
+    }
+    br {
+        height: 0.5em;
+    }
+    .tag {
+        font-size: 14px;
+        font-weight: normal;
+        font-style: italic;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #444444;
+        margin-right: 10px;
+    }
+    .store-button {
+        font-size: 12px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #434343;
+    }
+    .divider {
+        margin-top: 61px;
+        margin-bottom: 30px;
+    }
 }
