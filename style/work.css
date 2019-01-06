@@ -1,0 +1,311 @@
+.project-item {
+  padding-top: 70px;
+  padding-bottom: 80px;
+
+  border-bottom: 1px solid #a1a1a1;
+
+  position: relative;
+}
+
+.project-item:hover {
+  cursor: pointer;
+}
+
+.project-title {
+  font-size: 40px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #444444;
+
+  margin-top: 70px;
+  margin-left: 100px;
+}
+
+.project-about {
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.83;
+  letter-spacing: normal;
+  color: #444444;
+
+  margin-top: 33px;
+  margin-left: 100px;
+  width: 390px;
+}
+
+.tags {
+  margin-top: 40px;
+  margin-left: 100px;
+}
+
+.tag {
+  font-size: 18px;
+  font-weight: normal;
+  font-style: italic;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #444444;
+
+  padding: 3px 10px 3px 3px;
+  background-color: #E7FAFD;
+
+  margin-right: 20px;
+}
+
+.store-button {
+  border-radius: 30px;
+
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #434343;
+
+  padding: 18px 14px 18px 14px;
+
+  border: 1.5px solid #0ecaea;
+
+  margin-top: 40px;
+  margin-left: 100px;
+}
+
+.store-button:hover {
+  cursor: pointer;
+}
+
+.store-button img {
+  margin-right: 15px;
+}
+
+.project-thumb {
+  position: absolute;
+}
+
+#seagate-thumb {
+  width: 452px;
+  height: 437.7px;
+
+  top: 126px;
+  right: 217px;
+}
+
+#irctc-thumb {
+  width: 231px;
+  height: 286.3px;
+
+  top: 145px;
+  right: 268px;
+}
+
+#nutri-thumb {
+  width: 580px;
+  height: 580px;
+
+  top: 80px;
+  right: 153px;
+}
+
+#samsung-thumb {
+  width: 570px;
+  height: 330px;
+
+  top: 113px;
+  right: 158px;
+}
+
+#youth-thumb {
+  width: 747px;
+  height: 160px;
+
+  top: 231px;
+  right: 70px;
+}
+
+#infinity-thumb {
+  width: 583.9px;
+  height: 415.8px;
+
+  top: 119px;
+  right: 151px;
+}
+
+#collapse-thumb {
+  width: 528px;
+  height: 273px;
+
+  top: 158px;
+  right: 179px;
+}
+
+#bamboo-thumb {
+  width: 485px;
+  height: 263px;
+
+  top: 143px;
+  right: 131px;
+}
+
+@media screen and (max-width: 991px) {
+  .project-title {
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #444444;
+
+    margin-left: 18px;
+    margin-top: 20px;
+  }
+
+  .project-about {
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.5;
+    letter-spacing: 1px;
+    color: #444444;
+
+    margin-left: 18px;
+    margin-top: 10px;
+    margin-right: 0px;
+
+    width: 284px;
+  }
+
+  .project-thumb {
+    position: relative;
+  }
+
+  #seagate-thumb {
+    width: 163px;
+    height: 157px;
+
+    top: 0px;
+    right: 0px;
+
+    margin: 50px 80px 19px 74px;
+  }
+
+  #irctc-thumb {
+    width: 180px;
+    height: 180px;
+
+    top: 0px;
+    right: 0px;
+
+    margin: 30px 70px 19px 70px;
+  }
+
+  #nutri-thumb {
+    width: 234px;
+    height: 234px;
+
+    top: 0px;
+    right: 0px;
+
+    margin: 30px 43px 19px 43px;
+  }
+
+  #samsung-thumb {
+    width: 224px;
+    height: 130px;
+
+    top: 0px;
+    right: 0px;
+
+    margin: 30px 48px 19px 48px;
+  }
+
+  #youth-thumb {
+    width: 299px;
+    height: 64px;
+
+    top: 0px;
+    right: 0px;
+
+    margin: 30px 10px 10px 10px;
+  }
+
+  #infinity-thumb {
+    width: 187px;
+    height: 133px;
+
+    top: 0px;
+    right: 0px;
+
+    margin: 30px 67px 30px 66px;
+  }
+
+  #collapse-thumb {
+    width: 233px;
+    height: 126px;
+
+    top: 0px;
+    right: 0px;
+
+    margin: 30px 59px 20px 50px;
+  }
+
+  #bamboo-thumb {
+    width: 233px;
+    height: 126px;
+
+    top: 0px;
+    right: 0px;
+
+    margin: 30px 43px 20px 44px;
+  }
+
+  .tag {
+    font-size: 14px;
+    font-weight: normal;
+    font-style: italic;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #444444;
+
+    margin-right: 5px;
+  }
+
+  .tags {
+    margin-left: 18px;
+    margin-top: 10px;
+  }
+
+  .store-button {
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #434343;
+
+    padding: 12px 14px 14px 14px;
+    background: #fff;
+
+    margin-left: 18px;
+    margin-top: 30px;
+  }
+
+  .store-button img {
+    margin-right: 10px;
+  }
+
+  .project-item {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}

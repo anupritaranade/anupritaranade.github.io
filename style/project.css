@@ -1,0 +1,310 @@
+.cover-image {
+  width: 100%;
+  margin: 30px 0px 0px 0px;
+}
+
+.section-header {
+  font-size: 26px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 2.2px;
+  color: #444444;
+
+  margin-left: 50px;
+  margin-top: 60px;
+}
+
+.section-text {
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2;
+  letter-spacing: 1.5px;
+  color: #444444;
+
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.caption {
+
+  margin: auto;
+  width: 84%;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2;
+  letter-spacing: 1.5px;
+  color: #444444;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.caption-header {
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1.5px;
+  color: #444444;
+}
+
+.caption-div-right {
+  width: 50%;
+  height: 100%;
+  right: 0px;
+  position: absolute;
+  top: 0px;
+}
+
+.caption-div-left {
+  width: 50%;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+}
+
+.caption-img {
+  position: relative;
+  margin: auto;
+}
+
+.image-div-left {
+  width: 50%;
+}
+
+.image-div-right {
+  margin-left: 50%;
+  width: 50%;
+}
+
+.image-div-left img {
+  width: 100%;
+}
+
+.image-div-right img {
+  width: 100%;
+}
+
+.full-width-image {
+  width: 100%;
+}
+
+.nutri-dark-section {
+
+  margin-top: 258px;
+  background-color: #201e1e;
+  height: 454px;
+
+  padding-top: 30px;
+}
+
+.nutri-dark-section h2 {
+  margin-left: 50px;
+
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1.5px;
+  color: #ffffff;
+}
+
+.nutri-dark-section p {
+  margin-left: 50px;
+  margin-top: 10px;
+
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #bcbcbc;
+}
+
+.nutri-dark-section div {
+  margin-left: 50px;
+  margin-top: 30px;
+  padding: none;
+}
+
+.nutri-dark-section div img {
+  margin-right: 4%;
+  width: 20%;
+
+  align-content: top;
+}
+
+.next-button {
+  margin-top: 60px;
+
+  width: 100%;
+  padding: 12px 0px 12px 0px;
+
+  background-color: #0ecaea;
+
+  font-size: 20px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1.7px;
+  text-align: center;
+  color: #ffffff;
+}
+
+#long-screens {
+  margin-top: 750px;
+}
+
+#nutri-end {
+  margin-top: 435px;
+}
+
+
+@media screen and (max-width: 991px) {
+  .cover-image {
+    margin-top: 65px;
+  }
+
+  .section-header {
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1.2px;
+    color: #444444;
+
+    margin-left: 18px;
+    margin-top: 30px;
+  }
+
+  .section-text {
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.5;
+    letter-spacing: 1px;
+    color: #444444;
+
+    margin-left: 18px;
+    margin-top: 10px;
+  }
+
+  .image-div-left {
+    width: 100%;
+  }
+
+  .image-div-right {
+    margin-left: 0px;
+    width: 100%;
+  }
+
+  .caption-div-right {
+    position: relative;
+    width: 100%;
+  }
+
+  .caption-div-left {
+    position: relative;
+    width: 100%;
+  }
+
+  .caption {
+    transform: none;
+
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.5;
+    letter-spacing: 1px;
+    color: #444444;
+
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+    margin-left: 18px;
+  }
+
+  .caption-header {
+    font-size: 12px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1px;
+    color: #444444;
+  }
+
+  .nutri-dark-section {
+    padding-top: 10px;
+    height: 120px;
+
+    margin-top: 100px;
+  }
+
+  .nutri-dark-section h2 {
+    font-size: 10px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.8px;
+    color: #ffffff;
+
+    margin-left: 18px;
+  }
+
+  .nutri-dark-section p {
+    font-size: 10px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #bcbcbc;
+
+    margin-left: 18px;
+    margin-top: 6px;
+  }
+
+  .nutri-dark-section div {
+    margin-left: 18px;
+  }
+
+  .next-button {
+    font-size: 14px;
+    font-weight: 800;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1.2px;
+    text-align: center;
+    color: #ffffff;
+
+    margin-top: 30px;
+
+    padding: 11px 0px 10px 0px;
+  }
+
+  #long-screens {
+    margin-top: 214px;
+  }
+
+  #nutri-end {
+    margin-top: 150px;
+  }
+}
