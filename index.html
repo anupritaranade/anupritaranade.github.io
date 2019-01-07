@@ -1,63 +1,69 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>UX Portfolio - Anuprita Ranade</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
-    <script src="main.js"></script>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>UX Portfolio - Anuprita Ranade</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="./style/index.css" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <script src="./scripts/ham-cross.js"></script>
 </head>
+
 <body>
-    <div class="nav" id="nav">
-        <a class="logo" id="logo" href="./index.html">ANUPRITA RANADE</a>
-        <span class="menu-items">
-            <a href="#" class="inactive resume">RESUME</a>
-            <a href="./work.html" class="inactive work">WORK</a>
-        </span>
-        <span>
-            <div class="ham" onclick="homeFunction(this)">
-                <div class="bar1" id="bar1"></div>
-                <div class="bar3" id="bar3"></div>
-            </div>
-        </span>
+
+  <div id="home-content">
+    <div class="nav-bar">
+      <div class="logo"><a class="logo-anchor" href="#">ANUPRITA RANADE</a></div>
+      <div class="nav-items">
+        <span class="nav-item"><a class="nav-item-inactive" href="./work.html">WORK</a></span>
+        <span class="nav-item"><a class="nav-item-inactive" href="./Resume.pdf" target="_blank">RESUME</a></span>
+      </div>
     </div>
-    <div class="container home-content" id="home-page">
-        <div class="row">
-            <h1 class="home-title">Hello! I’m Anuprita</h1>
-        </div>
-        <div class="row">
-            <p class="home-details">
-                    I’m a product designer from Hyderabad, India. 
-                    I love studying cultures, observing humans and 
-                    designing meaningful experiences. 
-                    I currently work at <a href="https://mutualmobile.com/" target="_blank">Mutual Mobile</a> as an interaction designer. 
-                    I love to <a href="https://www.instagram.com/anupritaranade/?hl=en" target="_blank">draw and paint</a>. 
-                    Sometimes I also try my hand at <a href="https://medium.com/@anuprita.ranade" target="_blank">writing</a> about things that inspire me. 
-            </p>
-        </div>
+
+    <div class="nav-bar-mobile">
+      <div class="logo"><a class="logo-anchor" href="#">ANUPRITA RANADE</a></div>
+
+      <a class="ham" onclick="show_menu()">
+        <img src="./ham-cross/ham.svg" />
+      </a>
+
     </div>
-    <a href="./work.html" class="home-link" id="view-my-work">
-        <div class="home-button">View My Work</div>
+
+    <h1 class="greeting">Hello! I'm Anuprita</h1>
+
+    <p class="intro-para">
+      I’m a product designer from Hyderabad, India. I love studying cultures, observing humans and designing meaningful
+      experiences. I currently work at <a target="_blank" class="intro-link" href="https://mutualmobile.com">Mutual
+        Mobile</a>
+      as an interaction designer.I love to
+      <a class="intro-link" target="_blank" href="https://www.instagram.com/anupritaranade/?hl=en">draw and paint.</a>
+      Sometimes I also try my hand at <a target="_blank" class="intro-link" href="https://medium.com/@anuprita.ranade">writing</a>
+      about things that inspire me.
+    </p>
+
+    <a href="./index.html" class="home-link" id="view-my-work">
+      <div class="home-button">View My Work</div>
     </a>
-    <div class="container" id="ham-menu">
-        <div class="row">
-            <a class="col-lg-12 ham-menu-active" href="./index.html">Home</a>
-            <a class="col-lg-12 ham-menu-items" href="./work.html">Work</a>
-            <a class="col-lg-12 ham-menu-items">Resume</a>
-        </div>
-        <br />
-        <br />
-        <hr />
-        <div class="ham-menu-icons">
-            <a href="https://www.instagram.com/anupritaranade/?hl=en" target="_blank"><img src="./images/social/instagram.svg" style="width: 28px; margin-right: 48px;"/></a>
-            <a href="https://medium.com/@anuprita.ranade" target="_blank"><img src="./images/social/medium.svg" style="width: 28px;margin-right: 48px;"/></a>
-            <a href="https://www.linkedin.com/in/anupritaranade/" target="_blank"><img src="./images/social/linkedin.svg" style="width: 28px;"/></a>
-        </div>
+  </div>
+
+  <div id="ham-menu">
+    <a class="cross" onclick="hide_menu()"><img src="./ham-cross/cross.svg" /></a>
+    <div>
+      <a class="ham-menu-active" href="./index.html">Home</a>
+      <a class="ham-menu-items" href="./work.html">Work</a>
+      <a class="ham-menu-items" href="./Resume.pdf">Resume</a>
     </div>
+    <br />
+    <br />
+    <hr class="div-line" />
+    <div class="ham-menu-icons">
+      <a href="https://www.instagram.com/anupritaranade/?hl=en" target="_blank"><img src="./social/instagram.svg" style="width: 28px; margin-right: 48px;" /></a>
+      <a href="https://medium.com/@anuprita.ranade" target="_blank"><img src="./social/medium.svg" style="width: 28px;margin-right: 48px;" /></a>
+      <a href="https://www.linkedin.com/in/anupritaranade/" target="_blank"><img src="./social/linkedin.svg" style="width: 28px;" /></a>
+    </div>
+  </div>
 </body>
+
 </html>
