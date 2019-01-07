@@ -1,0 +1,104 @@
+.list-seagate {
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.44;
+  letter-spacing: 1.5px;
+  color: #444444;
+
+  margin: 30px 50px 0px 50px;
+}
+
+.seagate-green-section {
+  margin-top: 258px;
+  background-color: #f3fbef;
+
+  padding-top: 62px;
+  padding-bottom: 62px;
+}
+
+.seagate-green-section h2 {
+  font-size: 26px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 2.2px;
+  color: #444444;
+
+  margin-left: 50px;
+}
+
+.seagate-green-section p {
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2;
+  letter-spacing: 1.5px;
+  color: #444444;
+
+  margin-left: 50px;
+}
+
+#equal-image {
+  height: 680px;
+}
+
+#floating-center-tab {
+  width: 372px;
+  height: 370px;
+}
+
+@media screen and (max-width: 991px) {
+  .list-seagate {
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.5;
+    letter-spacing: 1px;
+    color: #444444;
+
+    margin-left: 18px;
+    margin-right: 18px;
+  }
+
+  #floating-center-tab {
+    width: 219px;
+    height: 218px;
+
+    margin-top: 60px;
+    margin-bottom: 30px;
+  }
+
+  .seagate-green-section {
+    padding: 20px 0px 20px 0px;
+  }
+
+  .seagate-green-section h2 {
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1.2px;
+    color: #444444;
+
+    margin-left: 18px;
+  }
+
+  .seagate-green-section p {
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.5;
+    letter-spacing: 1px;
+    color: #444444;
+
+    margin-left: 18px;
+    margin-right: 18px;
+  }
+}

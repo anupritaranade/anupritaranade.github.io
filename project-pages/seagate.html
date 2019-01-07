@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>UX Portfolio - Anuprita Ranade</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="../style/index.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="../style/project.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="../style/seagate.css" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <script src="../scripts/ham-cross.js"></script>
+</head>
+
+<body>
+
+  <div id="home-content">
+    <div class="nav-bar">
+      <div class="logo"><a class="logo-anchor" href="../index.html">ANUPRITA RANADE</a></div>
+      <div class="nav-items">
+        <span class="nav-item"><a class="nav-item-active" href="../work.html">WORK</a></span>
+        <span class="nav-item"><a class="nav-item-inactive" href="../Resume.pdf" target="_blank">RESUME</a></span>
+      </div>
+    </div>
+
+    <div class="nav-bar-mobile">
+      <div class="logo"><a class="logo-anchor" href="../index.html">ANUPRITA RANADE</a></div>
+
+      <a class="ham" onclick="show_menu()">
+        <img src="../ham-cross/ham.svg" />
+      </a>
+
+    </div>
+
+    <img class="cover-image" src="./seagate/1.png" />
+    <h1 class="section-header">BACKGROUND</h1>
+    <p class="section-text">While working at Mutual Mobile, I had the opportunity to lead the design efforts for iOS
+      and Android apps we built for Seagate Technology. The core features of these apps are to allow users to manage
+      files and folders on their hard drives using only their mobile phones (no computer needed). I worked closely with
+      the product team at Seagate and engineers at Mutual Mobile for design and development of the apps.</p>
+    <img class="full-width-image" src="./seagate/2.png" />
+    <p class="section-text">
+      <ol class="list-seagate">
+        <li> Use the hard drive as a power bank for charging mobile phones.</li>
+        <li> Back up content from mobile phone to hard drive.</li>
+        <li> Restore content from hard drive to mobile phone.</li>
+        <li> Allow users to manage files and folders on their hard drives using only their mobile phones (no computer
+          needed).</li>
+      </ol>
+    </p>
+    <img src="./seagate/3.png" class="center-image" id="floating-center-tab" />
+    <div class="seagate-green-section">
+      <h2>GOAL</h2>
+      <p>To design iOS and Android versions of the file manager app for the OTG supported Seagate hard drive</p>
+    </div>
+    <h1 class="section-header">THE USER JOURNEY</h1>
+    <img class="full-width-image" src="./seagate/4.png" />
+    <h1 class="section-header">GENERAL TASKS</h1>
+    <img class="full-width-image" src="./seagate/5.png" />
+    <h1 class="section-header">IDEATION</h1>
+    <img class="full-width-image" src="./seagate/5.png" />
+    <h1 class="section-header">INFORMATION ARCHITECTURE</h1>
+    <img class="full-width-image" src="./seagate/7.png" />
+    <p class="section-text">
+      <ol class="list-seagate">
+        <li> Since a huge data set is being managed on a small device, segregating files based on type makes it easier
+          to manage files.</li>
+        <li> Content aggregation is available at all times in the bottom bar. This makes it easy to switch between file
+          types.</li>
+        <li> Battery and storage status is available in the side drawer. Tapping on it gives detailed storage
+          information</li>
+        <li> Rest of the options and other storage locations (phone memory, SD card etc) are available in the side
+          drawer.</li>
+      </ol>
+    </p>
+    <h1 class="section-header">FOLDER BROWSING</h1>
+    <div class="two-images">
+      <div class="image-left">
+        <img src="./seagate/8.gif" />
+        <h3>List view and grid view</h3>
+      </div>
+      <div class="image-right">
+        <img src="./seagate/9.gif" />
+        <h3>Sorting options</h3>
+      </div>
+    </div>
+    <h1 class="section-header">FILE ACTIONS</h1>
+    <div class="two-images">
+      <div class="image-left">
+        <img src="./seagate/10.gif" id="equal-image" />
+        <h3>List view and grid view</h3>
+      </div>
+      <div class="image-right">
+        <img src="./seagate/11.png" id="equal-image" />
+        <h3>Sorting options</h3>
+      </div>
+    </div>
+    <h1 class="section-header">MUSIC</h1>
+    <img class="full-width-image" src="./seagate/12.png" />
+    <p class="section-text">
+      <ol class="list-seagate">
+        <li> All songs are categorised by Albums, Artists and Genre</li>
+        <li> The music player gets minimised so that users can continue to perform other actions while still having
+          access to the player</li>
+      </ol>
+    </p>
+    <h1 class="section-header">GALLERY</h1>
+    <img class="full-width-image" src="./seagate/13.png" />
+    <p class="section-text">
+      <ol class="list-seagate">
+        <li> Photos are arranged in a timeline view.</li>
+        <li> Users can switch the timeline format between Day, Month and Year.</li>
+      </ol>
+    </p>
+    <h1 class="section-header">SPACE MANAGEMENT</h1>
+    <div class="caption-img">
+      <div class="image-div-left">
+        <img src="./seagate/14.png" />
+      </div>
+      <div class="caption-div-right">
+        <p class="caption">
+          Users can view detailed breakdown of space used on hard drive by each file category along with the file
+          count.</p>
+      </div>
+    </div>
+    <h1 class="section-header">DESIGN FOR IOS</h1>
+    <img class="full-width-image" src="./seagate/15.png" />
+
+    <button class="next-button" onclick="location.href='../work.html'">GO TO NEXT PROJECT</button>
+  </div>
+
+  <div id="ham-menu">
+    <a class="cross" onclick="hide_menu()"><img src="../ham-cross/cross.svg" /></a>
+    <div>
+      <a class="ham-menu-items" href="../index.html">Home</a>
+      <a class="ham-menu-active" href="../work.html">Work</a>
+      <a class="ham-menu-items" href="../Resume.pdf">Resume</a>
+    </div>
+    <br />
+    <br />
+    <hr class="div-line" />
+    <div class="ham-menu-icons">
+      <a href="https://www.instagram.com/anupritaranade/?hl=en" target="_blank"><img src="../social/instagram.svg"
+          style="width: 28px; margin-right: 48px;" /></a>
+      <a href="https://medium.com/@anuprita.ranade" target="_blank"><img src="../social/medium.svg" style="width: 28px;margin-right: 48px;" /></a>
+      <a href="https://www.linkedin.com/in/anupritaranade/" target="_blank"><img src="../social/linkedin.svg" style="width: 28px;" /></a>
+    </div>
+  </div>
+
+</body>
+
+</html>

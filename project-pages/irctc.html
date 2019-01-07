@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>UX Portfolio - Anuprita Ranade</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="../style/index.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="../style/project.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="../style/irctc.css" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <script src="../scripts/ham-cross.js"></script>
+</head>
+
+<body>
+
+  <div id="home-content">
+    <div class="nav-bar">
+      <div class="logo"><a class="logo-anchor" href="../index.html">ANUPRITA RANADE</a></div>
+      <div class="nav-items">
+        <span class="nav-item"><a class="nav-item-active" href="../work.html">WORK</a></span>
+        <span class="nav-item"><a class="nav-item-inactive" href="../Resume.pdf" target="_blank">RESUME</a></span>
+      </div>
+    </div>
+
+    <div class="nav-bar-mobile">
+      <div class="logo"><a class="logo-anchor" href="../index.html">ANUPRITA RANADE</a></div>
+
+      <a class="ham" onclick="show_menu()">
+        <img src="../ham-cross/ham.svg" />
+      </a>
+
+    </div>
+
+    <img class="cover-image" src="./irctc/1.png" />
+    <h1 class="section-header">BACKGROUND</h1>
+    <p class="section-text">Indian Railway Catering and Tourism Corporation (IRCTC) handles online booking of train
+      tickets, catering and tourism services for the Indian Railways. Around 5,50,000 to 6,00,000 bookings happen
+      everyday. IRCTC Rail Connect is an Android app that aims to make the ticket booking process faster and easier.</p>
+    <h1 class="section-header">GOAL</h1>
+    <p class="section-text">The goal of the project was to evaluate the existing android ticket booking app and provide
+      suggestions to enhance user experience for hassle free ticket booking </p>
+    <img src="./irctc/2.png" class="center-image" id="three-screens" />
+    <h1 class="section-header">RESEARCH</h1>
+    <p class="section-text">I interviewed users and tested the usability of the existing app by making them perform a
+      ticket booking task. This process helped me gain insights about various user groups and how they interact with
+      the app. Here are two sample vidoes of the usability testing:</p>
+    <iframe src="https://player.vimeo.com/video/308758895" allowFullScreen mozallowfullscreen webkitAllowFullScreen>
+    </iframe>
+    <p class="iframe-caption">Pragati Ranade, F, 52<br />
+      Occupation: High school teacher<br />
+      Experienced smartphone user<br />
+      (The audio along with login and credit card entry has been trimmed for privacy purpose)</p>
+    <img class="full-width-image" src="./irctc/3.png" id="pain-points" />
+    <img class="full-width-image" src="./irctc/4.png" />
+    <h1 class="section-header">HEURISTIC ANALYSIS</h1>
+    <p class="section-text">Following my user research, I conducted a Heuristic analysis of the app. This helped me
+      figure out the reasons behind the identified pain points. I assigned a severity rating to each of the identified
+      pain points.</p>
+    <div id="heuristic">
+      <h2>Severity Rating</h2>
+      <span></span>
+      <br />
+      <h3>not so severe</h3>
+      <h3 id="very-severe">very severe</h3>
+    </div>
+    <p class="section-text">I used the following heuristics to evaluate the usability of the app:</p>
+    <div class="tags">
+      <span class="tag">#user control and freedom</span>
+      <span class="tag">#error prevention</span>
+      <span class="tag">#flexibility and efficiency of use</span>
+      <span class="tag">#aesthetic and minimal design</span>
+      <span class="tag">#recognition rather than recall</span>
+    </div>
+    <div class="heuristic-div">
+      <img src="./irctc/5.png" />
+      <div class="heuristic-text">
+        <span id="g-span"></span>
+        <br />
+        <h2>NEW BOOKING</h2>
+        <p>1. It is difficult to understand where exactly to tap to enter the FROM and TO fields.</p>
+        <span class="tag">#recognition rather than recall</span>
+        <p>2. All the input fields have been crammed into a tiny space while leaving a lot of space unused at the
+          bottom</p>
+        <span class="tag">#flexibility and efficiency of use</span>
+        <span class="tag">#aesthetic and minimal design</span>
+      </div>
+    </div>
+    <div class="heuristic-div">
+      <img src="./irctc/6.png" />
+      <div class="heuristic-text">
+        <span id="y-span"></span>
+        <br />
+        <h2>FEATURE INTRODUCTION</h2>
+        <p>1. The screen provides too much information at one time and this makes it diffuclt for users to understand,
+          defying the very purpose of this screen (to educate users about the app) </p>
+        <span class="tag">#aesthetic and minimal design</span>
+        <p>2. Most users who participated in the usability test tried tapping on the information because It also
+          mislead them to think that the information is interactive and they can tap on it.</p>
+        <span class="tag">#flexibility and efficiency of use</span>
+        <p>3. The main call to action “Got it” gets lost in the busy layout</p>
+        <span class="tag">#aesthetic and minimal design</span>
+        <span class="tag">#flexibility and efficiency of use</span>
+      </div>
+    </div>
+    <div class="heuristic-div">
+      <img src="./irctc/7.png" />
+      <div class="heuristic-text">
+        <span id="o-span"></span>
+        <br />
+        <h2>TRAIN LIST</h2>
+        <p>1. “Departure”, “Arrival” and “Travel Time” filters took a lot of users quite some time to understand.</p>
+        <span class="tag">#recognition rather than recall</span>
+        <p>2. Users have to go back one step to edit their search critera and view results.</p>
+        <span class="tag">#flexibility and efficiency of use</span>
+        <span class="tag">#error prevention</span>
+        <span class="tag">#user control and freedom</span>
+        <p>3.The more option gives information about train route. Many users tapped on the more option and got lost.
+          They couldn’t return to the train list screen.</p>
+        <span class="tag">#flexibility and efficiency of use</span>
+      </div>
+    </div>
+    <div class="heuristic-div">
+      <img src="./irctc/8.png" />
+      <div class="heuristic-text">
+        <span id="r-span"></span>
+        <br />
+        <h2>ADDING PASSENGERS</h2>
+        <p>1. App bar on the top is cluttered with visual elements and call to actions which most users can’t
+          recognize. The IRCTC and CRIS logos on the top look like buttons. Most users tried to tap on them.</p>
+        <span class="tag">#aesthetic and minimal design</span>
+        <span class="tag">#recognition rather than recall</span>
+        <p>2. None of the users understood the function of the “Preferences” button as it is inappropriately placed
+          with the “Add Passenger” and “Add Child” buttons </p>
+        <span class="tag">#recognition rather than recall</span>
+        <p>3. All the input fields have been crammed into a tiny space while leaving a lot of space unused at the
+          bottom</p>
+        <span class="tag">#aesthetic and minimal design</span>
+      </div>
+    </div>
+    <div class="heuristic-div">
+      <img src="./irctc/9.png" />
+      <div class="heuristic-text">
+        <span id="r-span"></span>
+        <br />
+        <h2>PAYMENT</h2>
+        <p>1. Categorization is leading to confusion. Example: PayTM wallet would be better placed in ‘e-Wallets’
+          option.</p>
+        <span class="tag">#recognition rather than recall</span>
+        <p>2. Number of taps required can be optimized by spreading out the options in the same screen.</p>
+        <span class="tag">#flexibility and efficiency of use</span>
+        <p>3. All payment options have been crammed up into a tiny space while leaving a lot of space unused at the
+          bottom.</p>
+        <span class="tag">#aesthetic and minimal design</span>
+      </div>
+    </div>
+    <h1 class="section-header">PERSONAS</h1>
+    <p class="section-text">After finishing the reasearch and heuristic analysis, I created 2 hypothetical personas.
+      These personas reflect people who use trains as their most preferred mode of transport and are aware of the
+      different aspects of IRCTC’s ticket booking process.</p>
+    <div class="persona-div">
+      <img src="./irctc/11.png" />
+      <div class="persona-text">
+        <h1>Geeta, 45</h1>
+        <p>
+          Occupation: Homemaker<br />
+          Behaviour: Tech savvy, fluent in english, spends most of the time at home, has used IRCTC before <br />
+          Expectations: Wants to plan a vacation for her family 2 months from now<br />
+        </p>
+      </div>
+    </div>
+    <div class="persona-div">
+      <img src="./irctc/10.png" />
+      <div class="persona-text">
+        <h1>Mahesh, 24</h1>
+        <p>
+          Occupation: Software engineer<br />
+          Behaviour: Tech savvy, fluent in english, at his workplace from 10 AM to 7 PM, stays away from family, visits
+          them every other month, has used IRCTC before<br />
+          Expectations: Needs to book train tickets for his next trip home<br />
+        </p>
+      </div>
+    </div>
+    <h1 class="section-header" id="brainstorming">BRAINSTORMING</h1>
+    <img class="full-width-image" src="./irctc/3.png" />
+    <h1 class="section-header">DEFINING THE INFORMATION ARCHITECTURE</h1>
+    <p class="section-text">
+      I resolved to using a bottom navigation where all the content of the application is available upfront and
+      arranged based on the priority of the functionality.
+    </p>
+    <p class="section-text">
+      <strong>
+        Ticket booking being the core functionality of the app, is placed at the center.<br />
+        Many users check their ticket’s PNR status and visit previous bookings for cancellation.<br />
+        The profile and other options are seldom used
+      </strong>
+    </p>
+    <img class="full-width-image" src="./irctc/3.png" />
+    <h1 class="section-header">WIREFRAMES</h1>
+    <div class="wireframe-div">
+      <div class="wireframe-img">
+        <img src="./irctc/12.png" />
+        <img src="./irctc/12.png" />
+      </div>
+      <div class="wireframe-text">
+        <h1>LOGIN</h1>
+        <p>
+          1. Easy login access with PIN.
+          <br />
+          2. Other loging option (username and password) is just one tap away in case user forgets PIN
+          <br />
+          3. ‘Book Meal’, ‘Air Ticket’, and ‘IRCTC Tourism’ are lesser used features of the app. They are
+          displayed as suggestions with PlayStore links. </p>
+      </div>
+    </div>
+    <div class="wireframe-div">
+      <img src="./irctc/14.png" />
+      <div class="wireframe-text">
+        <h1>FIND TRAINS</h1>
+        <p>
+          1. Simplified interaction: Demarcates Station input and Journey Date.
+          <br />
+          2. Input fields for Stations are appropriately highlighted for user input along with the option to swap
+          <br />
+          3. Journey date selection displayed in a separate section, and the options have same prominence to avoid
+          confusion</p>
+      </div>
+    </div>
+    <div class="wireframe-div">
+      <img src="./irctc/15.png" />
+      <img src="./irctc/16.png" />
+      <div class="wireframe-text">
+        <h1>ADD PASSENGERS</h1>
+        <p>
+          1. User can view passenger list as she updates each passenger’s details
+          <br />
+          2. Easy to edit Boarding Point and Phone Number
+          <br />
+          3. The add passenger form opens in the same screen
+        </p>
+      </div>
+    </div>
+    <div class="wireframe-div">
+      <img src="./irctc/17.png" />
+      <div class="wireframe-text">
+        <h1>PAYMENT</h1>
+        <p>
+          1. Categorised the payment methods as per the appropriate category
+          <br />
+          2. Expanded views have list views so any one option can be selected on the same screen</p>
+      </div>
+    </div>
+    <h1 class="section-header" id="brainstorming">THE WORKFLOW</h1>
+    <img class="full-width-image" src="./irctc/18.png" />
+
+    <button class="next-button" onclick="location.href='../work.html'">
+      GO TO NEXT PROJECT
+    </button>
+  </div>
+
+  <div id="ham-menu">
+    <a class="cross" onclick="hide_menu()"><img src="../ham-cross/cross.svg" /></a>
+    <div>
+      <a class="ham-menu-items" href="../index.html">Home</a>
+      <a class="ham-menu-active" href="../work.html">Work</a>
+      <a class="ham-menu-items" href="../Resume.pdf">Resume</a>
+    </div>
+    <br />
+    <br />
+    <hr class="div-line" />
+    <div class="ham-menu-icons">
+      <a href="https://www.instagram.com/anupritaranade/?hl=en" target="_blank"><img src="../social/instagram.svg"
+          style="width: 28px; margin-right: 48px;" /></a>
+      <a href="https://medium.com/@anuprita.ranade" target="_blank"><img src="../social/medium.svg" style="width: 28px;margin-right: 48px;" /></a>
+      <a href="https://www.linkedin.com/in/anupritaranade/" target="_blank"><img src="../social/linkedin.svg" style="width: 28px;" /></a>
+    </div>
+  </div>
+
+</body>
+
+</html>
