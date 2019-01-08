@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>UX Portfolio - Anuprita Ranade</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="../style/index.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="../style/project.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="../style/samsung.css" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <script src="../scripts/ham-cross.js"></script>
+</head>
+
+<body>
+
+  <div id="home-content">
+    <div class="nav-bar">
+      <div class="logo"><a class="logo-anchor" href="../index.html">ANUPRITA RANADE</a></div>
+      <div class="nav-items">
+        <span class="nav-item"><a class="nav-item-active" href="../work.html">WORK</a></span>
+        <span class="nav-item"><a class="nav-item-inactive" href="../Resume.pdf" target="_blank">RESUME</a></span>
+      </div>
+    </div>
+
+    <div class="nav-bar-mobile">
+      <div class="logo"><a class="logo-anchor" href="../index.html">ANUPRITA RANADE</a></div>
+
+      <a class="ham" onclick="show_menu()">
+        <img src="../ham-cross/ham.svg" />
+      </a>
+
+    </div>
+
+    <img class="cover-image" src="./samsung/1.png" />
+    <h1 class="section-header">GOAL</h1>
+    <p class="section-text">TO redesign the Samsung Shop website for<br />
+      1. A refined purchase journey<br />
+      2. Better UX for discovering and comparing products</p>
+    <h1 class="section-header">HEURISTIC ANALYSIS OF EXISTING WEBSITE</h1>
+    <p class="section-text">We conducted a heuristic evaluation to test whether the website is user friendly. The
+      heuristic evaluation was carried out based on a set of predefined design guidelines.
+      <br /><br />
+      Target: <a href="https://shop.samsung.com/in/" target="_blank">https://shop.samsung.com/in/</a></p>
+    <div class="samsung-pages">
+      <div class="samsung-pages-text">
+        <img src="./samsung/home.svg" align="center" />
+        <span>Home Page</span>
+      </div>
+      <div class="samsung-pages-text">
+        <img src="./samsung/product.svg" align="center" />
+        <span>Product Display Page</span>
+      </div>
+      <div class="samsung-pages-text">
+        <img src="./samsung/cart.svg" align="center" />
+        <span>Checkout Process</span>
+      </div>
+    </div>
+    <h1 id="heuristic-guidelines">Heuristic Guidelines</h1>
+    <div class="tags">
+      <span class="tag">#aesthetic and minimal design</span>
+      <span class="tag">#ease of navigation</span>
+      <span class="tag">#consistency and standards</span>
+      <span class="tag">#flexibility and efficiency of use</span>
+      <span class="tag">#error prevention</span>
+    </div>
+    <div class="samsung-dark-section">
+      <h2>THE HOME PAGE - MOBILE</h2>
+      <div class="dark-ha">
+        <img src="./samsung/2.png" />
+        <div class="dark-ha-text">
+          <span class="tag" id="dark-tag">#aesthetic and minimal design</span>
+          <p>
+            1. “PRE-ORDER NOW” button does not have the proper focus. It gets lost in the rest of the content and is
+            not consistent with the button style on the desktop website<br />
+            2. The menu icon, cart icon, and Samsung logo are not aligned with the centre of the navigation bar<br />
+            3. The customer support chat icon appears too intrusive as it overlaps with certain elements of the page
+          </p>
+        </div>
+      </div>
+      <div class="dark-ha">
+        <img src="./samsung/3.png" />
+        <div class="dark-ha-text">
+          <span class="tag" id="dark-tag">#ease of navigation</span>
+          <p>
+            1. The three items (Mobiles & Wearables, Memory & Storage and Accessories) are supposed to function as
+            tabs. Instead, they look like buttons<br />
+            2. Two tabs are in the selected state at the same time<br />
+            3. The customer support chat icon and the button for scrolling are overlapping
+          </p>
+        </div>
+      </div>
+      <div class="dark-ha">
+        <img src="./samsung/4.png" />
+        <div class="dark-ha-text">
+          <span class="tag" id="dark-tag">#aesthetic and minimal design</span>
+          <span class="tag" id="dark-tag">#flexibility and efficiency of use</span>
+          <p>
+            1. There is a lot of unused empty space in each product listing cell. This can be better utilised to create
+            an efficient way of displaying products<br />
+            2. Having a “Buy Now” button below each product will result in ease of purchase
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="samsung-light-section">
+      <h2>THE HOME PAGE - DESKTOP</h2>
+      <div class="light-ha">
+        <img src="./samsung/5.png" />
+        <div class="light-ha-text">
+          <span class="tag" id="light-tag">#aesthetic and minimal design</span>
+          <span class="tag" id="light-tag">#flexibility and efficiency of use</span>
+          <p>
+            1. All top seller products are not displayed upfront and are categorised into tabs instead. This requires 2
+            steps to access all top seller products<br />
+            2. The visual style of the tabs (“Mobiles & Wearables”, “Memory & Storage” and “Accessories” ) gives the
+            impression of a tooltip design
+          </p>
+        </div>
+      </div>
+      <div class="light-ha">
+        <img src="./samsung/bitmap.png" />
+        <img src="./samsung/bitmap2.png" />
+        <div class="light-ha-text">
+          <span class="tag" id="light-tag">#aesthetic and minimal design</span>
+          <span class="tag" id="light-tag">#flexibility and efficiency of use</span>
+          <p>
+            1. Icons (cart, wish list and profile), including the Samsung logo, are pixelated. This takes away the
+            richness and elegance of the visual style of the website<br />
+            2. Items in the header can be rearranged to optimise the space and result in a cleaner looK<br />
+            3. The Samsung logo gets hidden while reducing the size of the screen. The header is not optimised for
+            responsiveness<br />
+            4. On reducing the size further, the menu items are displayed in an expanded state which occupies the
+            entire real estate of the screen. This results in a broken experience.<br />
+            5. Needs a design change to address different screen sizes
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="samsung-light-section" style="background-color: #16252e">
+      <h2 style="color: #fff">PRODUCT DETAILS PAGE</h2>
+      <div class="light-ha">
+        <img src="./samsung/6.png" />
+        <div class="light-ha-text">
+          <span class="tag" id="dark-tag">#ease of navigation</span>
+          <span class="tag" id="dark-tag">#consistency and standards</span>
+          <p style="color: #fff">
+            1. Users process information from left to right. Hence, presenting the “Buy Now” button before (on the left
+            side) the product information is confusing<br />
+            2. Color selection option need to be presented in context with the product images<br />
+            3. Color selection is highlighted as a required field when user taps “Buy Now”. This interrupts the user’s
+            purchase flow<br />
+            4. There is no indication of which image is currently selected from the product image thumbnail carousel
+          </p>
+        </div>
+      </div>
+      <div class="light-ha">
+        <img src="./samsung/7.png" />
+        <div class="light-ha-text">
+          <span class="tag" id="dark-tag">#aesthetic and minimal design</span>
+          <p style="color: #fff">
+            1. For some products, the star rating section appears clickable but it doesn’t navigate to reviews section
+            thus causing confusion<br />
+            2. Too much clutter in the visual presentation of the information
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="samsung-light-section">
+      <h2>THE SHOPPING CART</h2>
+      <div class="light-ha">
+        <img src="./samsung/8.png" />
+        <div class="light-ha-text">
+          <span class="tag" id="light-tag">#aesthetic and minimal design</span>
+          <span class="tag" id="light-tag">#ease of navigation</span>
+          <p>
+            1. Information in the green notification bar on the top is redundant as the user can clearly see the
+            contents of the cart<br />
+            2. The notification bar also hides the header causing difficulty in navigation<br />
+            3. The user needs to explicitly click to cancel this notification bar thus diverting his focus away from
+            the main checkout flow<br />
+            4. “Proceed to Checkout” button should have more focus compared to “Continue Shopping”<br />
+            5. Customer support chat icon overlaps the “Proceed to Checkout” button on the mobile website
+          </p>
+        </div>
+      </div>
+      <div class="light-ha">
+        <img src="./samsung/9.png" />
+        <div class="light-ha-text">
+          <span class="tag" id="light-tag">#flexibility and efficiency of use</span>
+          <span class="tag" id="light-tag">#consistency and standards</span>
+          <p>
+            1. “Deliver Here” button does nothing. It is misleading as users would expect to proceed to the next step
+            of clicking it<br />
+            2. “Back” button in desktop website need not be as prominent as the “Continue” button because users should
+            be encouraged to proceed through the checkout process<br />
+            3. Mobile number is presented as a button, which is confusing
+          </p>
+        </div>
+      </div>
+    </div>
+    <h1 class="section-header">DESIGN APPROACH - 01</h1>
+    <div class="samsung-design-approach" style="margin-top: 0px">
+      <div class="title-div">
+        <span>THE HOME PAGE</span>
+        <img src="./samsung/10.png" />
+      </div>
+      <p>
+        1. Minimalistic UI with focus on core content<br />
+        2. Visually appealing design for displaying offers<br />
+        3. Menu items of navigation are clearly spaced out<br />
+        4. Optimised for mobile screen size.<br />
+        5. Clean, minimal and sticky navigation bar
+      </p>
+      <img class="samsung-design-approach-img" src="./samsung/11.png" />
+      <p>
+        1. All the top seller products are displayed upfront<br />
+        2. Users do not need to click on any category tab to view its top selling products<br />
+        3. Ability to view a list of all the top seller products is just one click away (the last box of the grid with
+        “view more products”)
+      </p>
+    </div>
+    <div class="samsung-design-approach">
+      <div class="title-div">
+        <span>PRODUCT DETAILS</span>
+        <img src="./samsung/12.png" />
+      </div>
+      <img class="samsung-design-approach-img" src="./samsung/13.png" />
+      <p>
+        1. Clean and minimal UI<br />
+        2. Clear and concise presentation of product information<br />
+        3. Optimised for mobile screen size<br />
+        4. All the product information is organised into easy access tabs
+      </p>
+    </div>
+    <div class="samsung-design-approach">
+      <div class="title-div">
+        <span>CHECK OUT</span>
+        <img src="./samsung/14.png" />
+      </div>
+      <img class="samsung-design-approach-img" src="./samsung/15.png" />
+      <p>
+        1. Allow the user to focus on the purchase of the main product from the product details page<br />
+        2. Display any complementary products (upsell) one step prior to entering the checkout process
+      </p>
+    </div>
+
+    <button class="next-button" onclick="location.href='../work.html'">
+      GO TO NEXT PROJECT
+    </button>
+  </div>
+
+  <div id="ham-menu">
+    <a class="cross" onclick="hide_menu()"><img src="../ham-cross/cross.svg" /></a>
+    <div>
+      <a class="ham-menu-items" href="../index.html">Home</a>
+      <a class="ham-menu-active" href="../work.html">Work</a>
+      <a class="ham-menu-items" href="../Resume.pdf">Resume</a>
+    </div>
+    <br />
+    <br />
+    <hr class="div-line" />
+    <div class="ham-menu-icons">
+      <a href="https://www.instagram.com/anupritaranade/?hl=en" target="_blank"><img src="../social/instagram.svg"
+          style="width: 28px; margin-right: 48px;" /></a>
+      <a href="https://medium.com/@anuprita.ranade" target="_blank"><img src="../social/medium.svg" style="width: 28px;margin-right: 48px;" /></a>
+      <a href="https://www.linkedin.com/in/anupritaranade/" target="_blank"><img src="../social/linkedin.svg" style="width: 28px;" /></a>
+    </div>
+  </div>
+
+</body>
+
+</html>
