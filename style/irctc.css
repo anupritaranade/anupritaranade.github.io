@@ -1,0 +1,405 @@
+#three-screens {
+  width: 770px;
+  height: 385px;
+}
+
+#pain-points {
+  margin-top: 73px;
+}
+
+#heuristic {
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
+#heuristic h2 {
+  font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1.5px;
+  color: #444444;
+}
+
+#heuristic span {
+  display: inline-block;
+
+  width: 340px;
+  height: 8px;
+  border-radius: 7.5px;
+  background-image: linear-gradient(to left, #d0021b, #f5a623 35%, #f2e438 75%, #87d933);
+}
+
+#heuristic h3 {
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1px;
+  color: #444444;
+
+  display: inline-block;
+}
+
+#very-severe {
+  margin-left: 177px;
+}
+
+.heuristic-div {
+  position: relative;
+
+  margin-left: 50px;
+  margin-top: 84px;
+}
+
+.heuristic-text {
+  position: absolute;
+
+  top: 0px;
+  left: 353px;
+
+  margin-right: 50px;
+
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2;
+  letter-spacing: 1.2px;
+  color: #444444;
+}
+
+#g-span {
+  display: inline-block;
+
+  width: 200px;
+  height: 8px;
+  border-radius: 7.5px;
+  background-color: #87d933;
+}
+
+#y-span {
+  display: inline-block;
+
+  width: 200px;
+  height: 8px;
+  border-radius: 7.5px;
+  background-color: #f2e438;
+}
+
+#o-span {
+  display: inline-block;
+
+  width: 200px;
+  height: 8px;
+  border-radius: 7.5px;
+  background-color: #f5a623;
+}
+
+#r-span {
+  display: inline-block;
+
+  width: 200px;
+  height: 8px;
+  border-radius: 7.5px;
+  background-color: #d0021b;
+}
+
+.persona-div {
+  position: relative;
+
+  margin-top: 112px;
+  margin-left: 50px;
+}
+
+.persona-text {
+  position: absolute;
+  top: 0px;
+  left: 290px;
+
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1.5px;
+  color: #444444;
+}
+
+.persona-text h1 {
+  font-size: 34px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 2.8px;
+  color: #444444;
+}
+
+#brainstorming {
+  margin-top: 130px;
+}
+
+strong {
+  font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.78;
+  letter-spacing: 1.5px;
+  color: #232323;
+}
+
+.wireframe-div {
+  position: relative;
+
+  margin-top: 81px;
+  margin-left: 50px;
+  margin-right: 50px;
+
+  border-bottom: 1px #d0d0d0 solid;
+
+  padding-bottom: 50px;
+}
+
+.wireframe-div img {
+  margin-right: 30px;
+}
+
+.wireframe-text {
+  position: absolute;
+
+  top: 0px;
+  left: 569px;
+
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2;
+  letter-spacing: 1.2px;
+  color: #444444;
+}
+
+.wireframe-text h1 {
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1.5px;
+  color: #444444;
+}
+
+
+
+@media screen and (max-width: 991px) {
+  #three-screens {
+    width: 260px;
+    height: 130px;
+  }
+
+  #pain-points {
+    margin-top: 10px;
+  }
+
+  #heuristic {
+    margin-left: 18px;
+    margin-top: 30px;
+  }
+
+  #heuristic h2 {
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.14;
+    letter-spacing: 1.2px;
+    color: #444444;
+  }
+
+  #heuristic span {
+    margin-top: 10px;
+
+    width: 284px;
+    height: 8px;
+    border-radius: 7.5px;
+    background-image: linear-gradient(to left, #d0021b, #f5a623 35%, #f2e438 75%, #87d933);
+  }
+
+  #heuristic h3 {
+    font-size: 10px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.8px;
+    color: #444444;
+  }
+
+  #very-severe {
+    margin-left: 149px;
+  }
+
+  .heuristic-div {
+    position: relative;
+
+    margin-left: 18px;
+    margin-top: 30px;
+  }
+
+  .heuristic-text {
+    position: relative;
+    left: 0px;
+  }
+
+  .heuristic-text h2 {
+    font-size: 12px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1px;
+    color: #444444;
+  }
+
+  .heuristic-text p {
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.5;
+    letter-spacing: 1px;
+    color: #444444;
+  }
+
+  #g-span {
+    width: 154px;
+    height: 8px;
+    border-radius: 7.5px;
+    background-color: #88d933;
+  }
+
+  #o-span {
+    width: 154px;
+    height: 8px;
+    border-radius: 7.5px;
+    background-color: #f5a623;
+  }
+
+  #y-span {
+    width: 154px;
+    height: 8px;
+    border-radius: 7.5px;
+    background-color: #f2e438;
+  }
+
+  #r-span {
+    width: 154px;
+    height: 8px;
+    border-radius: 7.5px;
+    background-color: #d0021b;
+  }
+
+  .heuristic-div img {
+    width: 118px;
+    height: 194px;
+  }
+
+  .persona-div {
+    position: relative;
+
+    margin-top: 40px;
+    margin-left: 18px;
+    margin-right: 18px;
+  }
+
+  .persona-div img {
+    display: block;
+
+    width: 120px;
+    height: 120px;
+
+    margin: auto;
+  }
+
+  .persona-text {
+    position: relative;
+    left: 0px;
+
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.5;
+    letter-spacing: 1px;
+    color: #444444;
+  }
+
+  .persona-text h1 {
+    text-align: center;
+
+    font-size: 12px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1px;
+    color: #444444;
+  }
+
+  strong {
+    font-size: 12px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.5;
+    letter-spacing: 1px;
+    color: #444444;
+  }
+
+  .wireframe-div {
+    margin-top: 40px;
+
+    margin-left: 18px;
+    margin-right: 18px;
+
+    padding-bottom: 40px;
+  }
+
+  .wireframe-div img {
+    width: 79px;
+    height: 152px;
+  }
+
+  .wireframe-img {
+    display: block;
+
+    margin: auto;
+  }
+
+  .wireframe-text {
+    position: relative;
+    left: 0px;
+
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.5;
+    letter-spacing: 1px;
+    color: #444444;
+  }
+
+  .wireframe-text h1 {
+    font-size: 12px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1px;
+    color: #444444;
+  }
+}

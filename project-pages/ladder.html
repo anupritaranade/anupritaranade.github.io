@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>UX Portfolio - Anuprita Ranade</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="../style/index.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="../style/project.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="../style/ladder.css" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <script src="../scripts/ham-cross.js"></script>
+</head>
+
+<body>
+
+  <div id="home-content">
+    <div class="nav-bar">
+      <div class="logo"><a class="logo-anchor" href="../index.html">ANUPRITA RANADE</a></div>
+      <div class="nav-items">
+        <span class="nav-item"><a class="nav-item-active" href="../work.html">WORK</a></span>
+        <span class="nav-item"><a class="nav-item-inactive" href="../Resume.pdf" target="_blank">RESUME</a></span>
+      </div>
+    </div>
+
+    <div class="nav-bar-mobile">
+      <div class="logo"><a class="logo-anchor" href="../index.html">ANUPRITA RANADE</a></div>
+
+      <a class="ham" onclick="show_menu()">
+        <img src="../ham-cross/ham.svg" />
+      </a>
+
+    </div>
+
+    <img class="cover-image" src="./ladder/1.png" />
+    <h1 class="section-header">BACKGROUND</h1>
+    <p class="section-text">Ladders have always been difficult to carry around as they’re too big. The collapsible
+      ladder was designed by me and a classmate as an entry for a design competition at the National Institute of
+      Design, Ahmedabad in 2009. </p>
+    <h1 class="section-header">HOW IT WORKS</h1>
+    <iframe id="ladder-video" src="https://player.vimeo.com/video/92346239" frameborder="0" allowFullScreen
+      mozallowfullscreen webkitAllowFullScreen></iframe>
+    <p class="section-text">The rung of each ladder has a hinge that allows the ladder to be folded. A locking
+      mechanism prevents it from being folded while the ladder is being used. </p>
+    <img class="full-width-image" src="./ladder/2.png" />
+    <p class="section-text">After folding, it turns into a 2.5 feet tall structure which can also be used as a table or
+      a storage unit.</p>
+    <h1 class="section-header">PROTOTYPE</h1>
+    <img class="full-width-image" src="./ladder/3.png" />
+
+    <button class="next-button" onclick="location.href='../work.html'">
+      GO TO NEXT PROJECT
+    </button>
+  </div>
+
+  <div id="ham-menu">
+    <a class="cross" onclick="hide_menu()"><img src="../ham-cross/cross.svg" /></a>
+    <div>
+      <a class="ham-menu-items" href="../index.html">Home</a>
+      <a class="ham-menu-active" href="../work.html">Work</a>
+      <a class="ham-menu-items" href="../Resume.pdf">Resume</a>
+    </div>
+    <br />
+    <br />
+    <hr class="div-line" />
+    <div class="ham-menu-icons">
+      <a href="https://www.instagram.com/anupritaranade/?hl=en" target="_blank"><img src="../social/instagram.svg"
+          style="width: 28px; margin-right: 48px;" /></a>
+      <a href="https://medium.com/@anuprita.ranade" target="_blank"><img src="../social/medium.svg" style="width: 28px;margin-right: 48px;" /></a>
+      <a href="https://www.linkedin.com/in/anupritaranade/" target="_blank"><img src="../social/linkedin.svg" style="width: 28px;" /></a>
+    </div>
+  </div>
+
+</body>
+
+</html>
