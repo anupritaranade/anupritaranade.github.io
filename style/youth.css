@@ -1,0 +1,23 @@
+#youth-header {
+  display: block;
+  margin: auto;
+
+  margin-top: 173px;
+}
+
+#youth-caption {
+  background-color: #72182b;
+}
+
+#youth-caption p {
+  color: #ffffff;
+}
+
+@media screen and (max-width: 991px) {
+  #youth-header {
+    width: 256px;
+    height: 55px;
+
+    margin-top: 95px;
+  }
+}

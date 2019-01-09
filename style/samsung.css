@@ -1,0 +1,327 @@
+.samsung-pages-text {
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 3.56;
+  letter-spacing: 1.5px;
+  color: #444444;
+}
+
+.samsung-pages-text span {
+  margin-left: 40px;
+}
+
+.samsung-pages {
+  margin-left: 50px;
+}
+
+#heuristic-guidelines {
+  margin-left: 50px;
+
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2;
+  letter-spacing: 1.5px;
+  color: #444444;
+
+  margin-top: 40px;
+}
+
+.samsung-dark-section {
+  width: 100%;
+  background-color: #16252e;
+
+  margin-top: 75px;
+
+  padding-top: 30px;
+  padding-bottom: 80px;
+}
+
+.samsung-dark-section h2 {
+  font-size: 26px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 2.2px;
+  color: #ffffff;
+
+  margin-left: 50px;
+}
+
+.dark-ha {
+  margin-top: 60px;
+  margin-left: 50px;
+  margin-right: 50px;
+
+  position: relative;
+}
+
+.dark-ha-text {
+  position: absolute;
+  top: 0px;
+  left: 276px;
+}
+
+#dark-tag {
+  background-color: #0ecaea;
+  color: #fff;
+}
+
+.dark-ha p {
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.5;
+  letter-spacing: 1.5px;
+  color: #ffffff;
+}
+
+.samsung-light-section {
+  width: 100%;
+  background-color: #fbfbfb;
+
+  padding-top: 30px;
+  padding-bottom: 80px;
+}
+
+.samsung-light-section h2 {
+  margin-left: 50px;
+
+  font-size: 26px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 2.2px;
+  color: #444444;
+}
+
+.light-ha-text {
+  margin-top: 30px;
+}
+
+#light-tag {
+  background-color: #444444;
+  color: #fff;
+
+}
+
+.light-ha {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 60px;
+
+  position: relative;
+}
+
+.light-ha p {
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.5;
+  letter-spacing: 1.5px;
+  color: #444444;
+}
+
+.light-ha img {
+  width: 100%;
+
+  margin-top: 30px;
+}
+
+.samsung-design-approach {
+  width: 100%;
+  background-color: #16252e;
+
+  margin-top: 20px;
+
+  padding-top: 124px;
+  padding-bottom: 40px;
+}
+
+.title-div {
+  position: relative;
+
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.title-div span {
+  font-size: 34px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 2.8px;
+  color: #e8fcff;
+}
+
+.title-div img {
+  width: 83%;
+
+  display: block;
+  margin: auto;
+
+  margin-top: -84px;
+}
+
+.samsung-design-approach p {
+  margin-left: 50px;
+  margin-top: 90px;
+  margin-right: 50px;
+
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.5;
+  letter-spacing: 1.5px;
+  color: #ffffff;
+}
+
+.samsung-design-approach-img {
+  width: 84%;
+
+  display: block;
+  margin: auto;
+
+  margin-top: 120px;
+}
+
+@media screen and (max-width: 991px) {
+  .samsung-pages {
+    margin-left: 18px;
+  }
+
+  .samsung-pages-text {
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 3.33;
+    letter-spacing: 1.5px;
+    color: #444444;
+  }
+
+  .samsung-pages-text span {
+    margin-left: 20px;
+  }
+
+  #heuristic-guidelines {
+    font-size: 12px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1.5px;
+    color: #444444;
+
+    margin-left: 18px;
+  }
+
+  .samsung-dark-section h2 {
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1.3px;
+    color: #ffffff;
+
+    margin-left: 18px;
+  }
+
+  .dark-ha-text {
+    position: relative;
+    left: 0px;
+
+    margin-top: 30px;
+  }
+
+  .dark-ha {
+    margin-left: 18px;
+  }
+
+  .dark-ha p {
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.5;
+    letter-spacing: 1px;
+    color: #ffffff;
+  }
+
+  .dark-ha img {
+    display: block;
+    margin: auto;
+  }
+
+  .samsung-light-section h2 {
+    margin-left: 18px;
+
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1.3px;
+    color: #444444;
+  }
+
+  .light-ha {
+    margin-left: 18px;
+  }
+
+  .light-ha p {
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.5;
+    letter-spacing: 1px;
+    color: #444444;
+  }
+
+  .samsung-design-approach {
+    padding-top: 20px;
+  }
+
+  .title-div {
+    margin-left: 18px;
+  }
+
+  .samsung-design-approach p {
+    margin-left: 18px;
+
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.5;
+    letter-spacing: 1px;
+    color: #ffffff;
+  }
+
+  .title-div img {
+    margin-top: 30px;
+  }
+
+  .title-div span {
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1.3px;
+    color: #ffffff;
+
+    margin-left: 18px;
+  }
+}
