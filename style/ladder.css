@@ -1,4 +1,9 @@
 #ladder-video {
-  height: auto;
   width: 100%;
+}
+
+@media screen and (max-width: 991px) {
+  #ladder-video {
+    height: 200px;
+  }
 }

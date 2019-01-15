@@ -7,6 +7,10 @@
   position: relative;
 }
 
+#seagate-item {
+  margin-top: 30px;
+}
+
 .project-item:hover {
   cursor: pointer;
 }
@@ -20,7 +24,7 @@
   letter-spacing: normal;
   color: #444444;
 
-  margin-top: 70px;
+  margin-top: none;
   margin-left: 100px;
 }
 
@@ -109,7 +113,7 @@
   width: 580px;
   height: 580px;
 
-  top: 80px;
+  top: 0px;
   right: 153px;
 }
 

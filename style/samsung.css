@@ -8,6 +8,10 @@
   color: #444444;
 }
 
+.screen-sam {
+  width: 16%;
+}
+
 .samsung-pages-text span {
   margin-left: 40px;
 }
@@ -323,5 +327,9 @@
     color: #ffffff;
 
     margin-left: 18px;
+  }
+
+  .screen-sam {
+    width: 100%;
   }
 }
