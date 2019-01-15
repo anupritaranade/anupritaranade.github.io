@@ -63,6 +63,8 @@
 }
 
 .store-button {
+  display: inline-block;
+
   border-radius: 30px;
 
   font-size: 18px;
@@ -79,6 +81,8 @@
 
   margin-top: 40px;
   margin-left: 100px;
+
+  text-decoration: none;
 }
 
 .store-button:hover {
@@ -202,8 +206,8 @@
   }
 
   #irctc-thumb {
-    width: 180px;
-    height: 180px;
+    width: 130px;
+    height: 160px;
 
     top: 0px;
     right: 0px;

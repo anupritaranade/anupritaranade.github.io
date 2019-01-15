@@ -122,6 +122,8 @@ iframe {
   letter-spacing: 1.7px;
   text-align: center;
   color: #ffffff;
+
+  border: none;
 }
 
 .center-image {
@@ -388,13 +390,5 @@ iframe {
   .rightmost-image {
     float: none;
     width: 100%;
-  }
-
-  .image-right img {
-    height: 240px;
-  }
-
-  .image-left img {
-    height: 240px;
   }
 }

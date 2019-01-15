@@ -64,6 +64,10 @@
     margin-right: 18px;
   }
 
+  #equal-image {
+    height: 320px;
+  }
+
   #floating-center-tab {
     width: 219px;
     height: 218px;
