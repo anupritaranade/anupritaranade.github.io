@@ -3,6 +3,18 @@
   height: 385px;
 }
 
+.screen {
+  width: 16%;
+}
+
+.wireframe {
+  width: 15%;
+}
+
+.persona {
+  width: 14%;
+}
+
 #pain-points {
   margin-top: 73px;
 }

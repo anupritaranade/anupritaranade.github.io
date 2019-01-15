@@ -73,6 +73,13 @@
     margin-left: 18px;
   }
 
+  .nutri-svg {
+    width: 24px;
+    height: 24px;
+
+    margin-right: 10px;
+  }
+
   .nutri-dark-section p {
     font-size: 10px;
     font-weight: normal;

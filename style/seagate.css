@@ -11,7 +11,6 @@
 }
 
 .seagate-green-section {
-  margin-top: 258px;
   background-color: #f3fbef;
 
   padding-top: 62px;
@@ -63,6 +62,10 @@
 
     margin-left: 18px;
     margin-right: 18px;
+  }
+
+  #equal-image {
+    height: 320px;
   }
 
   #floating-center-tab {

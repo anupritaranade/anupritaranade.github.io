@@ -1,6 +1,13 @@
+#infinity-image {
+  width: 70%;
+}
+
 @media screen and (max-width: 991px) {
   #infinity-image {
     width: 224px;
     height: 160px;
+
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
 }
