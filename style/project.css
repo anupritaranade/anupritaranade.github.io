@@ -392,3 +392,6 @@ iframe {
     width: 100%;
   }
 }
+.patch {
+  display: table; !important
+}
