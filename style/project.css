@@ -393,5 +393,5 @@ iframe {
   }
 }
 .patch {
-  display: table; !important
+  display: table !important; 
 }
